@@ -64,8 +64,6 @@ namespace BankAppDBTask.Data
 
             modelBuilder.Entity<Customer>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
-
                 entity.Property(e => e.Firstname).IsUnicode(false);
 
                 entity.Property(e => e.Lastname).IsUnicode(false);

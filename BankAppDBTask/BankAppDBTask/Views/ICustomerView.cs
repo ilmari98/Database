@@ -9,5 +9,7 @@ namespace BankAppDBTask.Models
         void ReadAllData();
         //List<Customer> Read();
         void ReadBankCustomers();
+        void CreateCustomer();
+        void DeleteCustomer();
     }
 }

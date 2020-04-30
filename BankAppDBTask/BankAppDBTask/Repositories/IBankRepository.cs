@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Banks;
 
 namespace BankAppDBTask.Repositories
 {
@@ -9,5 +10,6 @@ namespace BankAppDBTask.Repositories
     {
         List<Bank> Read();
         List<Bank> ReadAllCustomers();
+        String Create(Bank bank);
     }
 }
